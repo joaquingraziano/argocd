@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/joaquingraziano/argocd.git ####
     targetRevision: HEAD
-    path: dev/app/ ####
+    path: Dev/app/ ####
   destination: 
     server: https://kubernetes.default.svc
     namespace: dev-myshoppingweb   ####
