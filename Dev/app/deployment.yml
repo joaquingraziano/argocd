@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: webdemo
-          image: nextcloud
+          image: jgraziano/lupitaap:v1.29
           ports:
             - containerPort: 80 # Puedes cambiar esto según las necesidades de tu aplicación
 
