@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: webdemo
-          image: jgraziano/lupitaap:v1.26
+          image: jgraziano/lupitaap:v1.28
           ports:
             - containerPort: 80 # Puedes cambiar esto según las necesidades de tu aplicación
 
