@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: webdemo
-  replicas: 5 # Puedes cambiar esto según tus necesidades
+  replicas: 4 # Puedes cambiar esto según tus necesidades
   template:
     metadata:
       labels:
