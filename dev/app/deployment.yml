@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: webdemo
-          image: jgraziano/webdemo:D1.6
+          image: jgraziano/webdemo:D1.7
           ports:
             - containerPort: 80 # Puedes cambiar esto según las necesidades de tu aplicación
 
