@@ -12,7 +12,7 @@ spec:
     path: dev/app/ ####
   destination: 
     server: https://kubernetes.default.svc
-    namespace: dev-webdemo   ####
+    namespace: dev-myshoppingweb   ####
 
   syncPolicy:
     syncOptions:
@@ -33,12 +33,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/joaquingraziano/argocd.git  ####
+    repoURL: https://github.com/joaquingraziano/argocd.git ####
     targetRevision: HEAD
     path: prod/app/ ####
   destination: 
     server: https://kubernetes.default.svc
-    namespace: prod-webdemo   ####
+    namespace: prod-myshoppingweb   ####
 
   syncPolicy:
     syncOptions:
@@ -64,7 +64,7 @@ spec:
     path: staging/app/ ####
   destination: 
     server: https://kubernetes.default.svc
-    namespace: preprod-webdemo   ####
+    namespace: staging-myshoppingweb   ####
 
   syncPolicy:
     syncOptions:
