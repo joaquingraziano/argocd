@@ -5,15 +5,15 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: webdemo-dev
+      app: webdemo
   replicas: 2 # Puedes cambiar esto según tus necesidades
   template:
     metadata:
       labels:
-        app: webdemo-dev
+        app: webdemo
     spec:
       containers:
-        - name: webdemo-dev
+        - name: webdemo
           image: jgraziano/webdemo:D1.6
           ports:
             - containerPort: 80 # Puedes cambiar esto según las necesidades de tu aplicación
