@@ -13,7 +13,7 @@ spec:
         app: webdemo
 
       containers:
-        - name: webdemo-dev
+        - name: webdemo
           image: jgraziano/webdemo-dev:v1.10
           ports:
             - containerPort: 80 # Puedes cambiar esto según las necesidades de tu aplicación
