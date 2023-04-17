@@ -8,10 +8,10 @@ spec:
 
   source:
     repoURL: https://github.com/joaquingraziano/argocd.git ####
-    targetRevision: HEAD
+    targetRevision: main
     path: dev/app/ ####
   destination: 
-    server: https://kubernetes.default.svc/
+    server: https://kubernetes.default.svc
     namespace: webdemo-dev   ####
 
   syncPolicy:
