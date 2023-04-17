@@ -11,10 +11,10 @@ spec:
     metadata:
       labels:
         app: webdemo
-
+    spec:
       containers:
         - name: webdemo
-          image: jgraziano/webdemo-dev:v1.10
+          image: fcambres/webdemo:v1.30
           ports:
             - containerPort: 80 # Puedes cambiar esto según las necesidades de tu aplicación
 

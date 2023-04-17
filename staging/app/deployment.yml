@@ -5,16 +5,17 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: webdemo-test
+      app: webdemo
   replicas: 2 # Puedes cambiar esto según tus necesidades
   template:
     metadata:
       labels:
-        app: webdemo-test
+        app: webdemo
     spec:
       containers:
-        - name: webdemo-test
-          image: jgraziano/webdemo-test:v1.13
+        - name: webdemo
+          image: fcambres/webdemo:v1.53
+          ports:
             - containerPort: 80 # Puedes cambiar esto según las necesidades de tu aplicación
 
 
