@@ -3,17 +3,16 @@ kind: Application
 metadata:
   name: dev-webdemo-app  ####
   namespace: argocd
-
 spec:
   project: default
 
   source:
-    repoURL: https://github.com/joaquingraziano/argocd.git ####
+    repoURL: https://github.com/Jiolloker/manifest-eks.git ####
     targetRevision: HEAD
     path: dev/app/ ####
   destination: 
     server: https://kubernetes.default.svc
-    namespace: webdemo-dev   ####
+    namespace: dev-myshoppingweb   ####
 
   syncPolicy:
     syncOptions:
