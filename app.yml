@@ -33,7 +33,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/Jiolloker/manifest-eks.git ####
+    repoURL: https://github.com/joaquingraziano/argocd.git ####
     targetRevision: HEAD
     path: prod/app/ ####
   destination: 
@@ -59,7 +59,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/Jiolloker/manifest-eks.git ####
+    repoURL: https://github.com/joaquingraziano/argocd.git ####
     targetRevision: HEAD
     path: staging/app/ ####
   destination: 
