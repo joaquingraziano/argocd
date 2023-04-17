@@ -2,13 +2,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: dev-webdemo-app  ####
-  namespace: argocd
-spec:
+  namespace: argocd-webdemo-dev
   project: default
 
   source:
     repoURL: https://github.com/joaquingraziano/argocd.git ####
-    targetRevision: main
+    targetRevision: HEAD
     path: dev/app/ ####
   destination: 
     server: https://kubernetes.default.svc
