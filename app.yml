@@ -12,7 +12,7 @@ spec:
     path: dev/app/ ####
   destination: 
     server: https://kubernetes.default.svc
-    namespace: dev-myshoppingweb   ####
+    namespace: dev-webdemo   ####
 
   syncPolicy:
     syncOptions:
@@ -38,7 +38,7 @@ spec:
     path: prod/app/ ####
   destination: 
     server: https://kubernetes.default.svc
-    namespace: prod-myshoppingweb   ####
+    namespace: prod-webdemo   ####
 
   syncPolicy:
     syncOptions:
@@ -64,7 +64,7 @@ spec:
     path: test/app/ ####
   destination: 
     server: https://kubernetes.default.svc
-    namespace: test-myshoppingweb   ####
+    namespace: test-webdemo   ####
 
   syncPolicy:
     syncOptions:
